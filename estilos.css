@@ -1,0 +1,61 @@
+.img-1{
+	text-align: center;
+}
+body{
+	background-image: url(back.jpeg);
+	background-size: cover;
+}
+nav{
+	max-width: 900px;
+	margin: auto;
+	background-color: #233;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: #8691A7;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: none;
+}
+
+td {
+  padding: 10px;
+}
+
+img {
+  max-width: 20%;
+  height: auto; 
+}
